@@ -1,0 +1,9 @@
+#wrapper{
+    display: grid;
+    grid-template-areas: 
+    "hero hero hero hero"
+    "about about booking booking"
+    "news destination gallery gallery"
+    "footer footer footer footer"
+    ;
+}
