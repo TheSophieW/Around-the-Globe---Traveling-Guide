@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sofia+Sans+Condensed:wght@686&display=swap');
+
+.poiret-one {
+    font-family: "Poiret One", serif;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.sofia-sans {
+    font-family: "Sofia Sans Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 686;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poiret One", serif;
+    color: #333;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+h1, h2, h3 {
+    font-family: "Sofia Sans Condensed", serif;
+    color: #333;
+    font-optical-sizing: auto;
+    font-weight: 686;
+    font-style: normal;
+}
