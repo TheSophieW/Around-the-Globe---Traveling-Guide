@@ -1,0 +1,11 @@
+/* 🌍 FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #182923; /* Deep green-black */
+    color: #E4DAB6; /* Cream text */
+    font-size: 1em;
+    position: relative;
+    bottom: 10;
+    width: 100%;
+}

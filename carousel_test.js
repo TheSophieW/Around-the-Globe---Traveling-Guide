@@ -1,5 +1,5 @@
 // Select all the slides
-alert("Welcome to the carousel test page! Click OK to continue.");
+
 
 let currentIndex = 0;
 const slides = document.querySelectorAll('.slide');
