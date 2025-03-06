@@ -1,8 +1,17 @@
 // Select all the slides
 
-
 let currentIndex = 0;
-const slides = document.querySelectorAll('.slide');
+var slides = null;
+document.addEventListener('DOMContentLoaded', function() {
+
+    slides = document.querySelectorAll('.slide');
+
+    // Show the first slide when the page loads
+    showSlide(currentIndex);
+
+    setInterval(nextSlide, 5000); // Automatically go to the next slide every 3 seconds
+});
+
 
 // Function to show a specific slide
 function showSlide(index) {
@@ -21,6 +30,3 @@ function prevSlide() {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length; // Loop back to last image when reaching the first
     showSlide(currentIndex);
 }
-
-// Show the first slide when the page loads
-showSlide(currentIndex);

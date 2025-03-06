@@ -7,4 +7,6 @@
 @import url('/style/_vars.css');
 @import url('/style/_gallery.css');
 @import url('/style/_fonts.css');
-@import url('./carousel_test.css');
+@import url('/style/_animations.css');
+@import url('/style/_icons.css');
+@import url('/style/carousel_test.css');

@@ -25,3 +25,15 @@ h1, h2, h3 {
     font-weight: 686;
     font-style: normal;
 }
+
+nav ul li a {
+    font-family: "Sofia Sans Condensed", serif;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+li {
+    font-family: "Poiret One", serif;
+    font-weight: 600;
+    font-style: oblique;
+}

@@ -3,7 +3,7 @@ body {
     font-family: "Sofia Sans Condensed", serif;
     margin: 0;
     padding: 0;
-    background-color: #051D1D; /* Soft cream background */
+    background-color: #051D1D; 
     color: #203E36; /* Deep green for text */
 }
 
@@ -60,35 +60,6 @@ section {
     background: #EFEBBB;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* 📸 IMAGE CAROUSEL */
-.carousel {
-    position: relative;
-    width: 80%;
-    max-width: 900px;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.carousel-images {
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.6s ease-in-out;
-}
-
-.slide.active {
-    opacity: 1;
 }
 
 /* 🔘 NAVIGATION BUTTONS */

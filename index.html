@@ -1,80 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Around the World - Travelling Guide</title>
-    <script src="./carousel_test.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Around the World - Travelling Guide</title>
+        <script src="./carousel_test.js"></script>
+        
+        <link rel="stylesheet" href="./style/styles.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="logo"><img src="./assets/ATG/icons/ATG-logo1.png" alt="Around the Globe">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li><a href="./pages/destinations.html">Destinations</a></li>
+                    <li><a href="./pages/booking.html">Booking</a></li>
+                    <li><a href="./pages/gallery.html">Gallery</a></li>
+                    <li><a href="./pages/seastrip.html">Seasonal Trips</a></li>
+                    <li><a href="./pages/faq.html">FAQ</a></li>
+                    <li><a href="./pages/guides.html">Guides</a></li>
+                    <li><a href="./pages/culitrip.html">Culinary Trips</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="wrapper">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <div class="slide active">
+                        <img src="./assets/ATG/edited/santorini_greece.png" alt="Luxury Destination 1">
+                        <div class="text-overlay">
+                            <h2>Maldives Paradise</h2>
+                            <p>Experience overwater luxury with endless ocean views.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/ATG/edited/ubud_bali_indo.png" alt="Luxury Destination 2">
+                        <div class="text-overlay">
+                            <h2>Parisian Elegance</h2>
+                            <p>Dine under the Eiffel Tower with world-class cuisine.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/ATG/edited/moraine_lake_canada.png" alt="Luxury Destination 3">
+                        <div class="text-overlay">
+                        <h2>Santorini Sunsets</h2>
+                            <p>Unwind with breathtaking views of the Aegean Sea.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/ATG/edited/bali_indo_couple.png" alt="Luxury Destination 2">
+                        <div class="text-overlay">
+                            <h2>Parisian Elegance</h2>
+                            <p>Dine under the Eiffel Tower with world-class cuisine.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/ATG/edited/sea.png" alt="Luxury Destination 3">
+                        <div class="text-overlay">
+                        <h2>Santorini Sunsets</h2>
+                            <p>Unwind with breathtaking views of the Aegean Sea.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/ATG/edited/great_wall_china.png" alt="Luxury Destination 3">
+                        <div class="text-overlay">
+                        <h2>Santorini Sunsets</h2>
+                            <p>Unwind with breathtaking views of the Aegean Sea.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation buttons -->
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
 
-    <link rel="stylesheet" href="./style/styles.css">
-</head>
-<body>
-    
-    <header>
-        <div class="logo"><img src="./assets/ATG/icons/ATG-logo1.png" alt="Around the Globe">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/about.html">About</a></li>
-                <li><a href="./pages/destinations.html">Destinations</a></li>
-                <li><a href="./pages/booking.html">Booking</a></li>
-                <li><a href="./pages/gallery.html">Gallery</a></li>
-                <li><a href="./pages/seastrip.html">Seasonal Trips</a></li>
-                <li><a href="./pages/faq.html">FAQ</a></li>
-                <li><a href="./pages/guides.html">Guides</a></li>
-                <li><a href="./pages/culitrip.html">Culinary Trips</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    
-    <div id="wrapper">
-    <section id="home" class="hero">
-        <h1>Welcome to Around the World</h1>
-        <p>Your ultimate travelling guide to explore breathtaking destinations and create unforgettable memories.</p>
-    </section>
+            <section id="home" class="hero">
+                <h1>Welcome to Around the World</h1>
+                <p>Your ultimate travelling guide to explore breathtaking destinations and create unforgettable memories.</p>
+            </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Founded by passionate travelers, we aim to inspire and guide you to explore the world.</p>
-    </section>
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Founded by passionate travelers, we aim to inspire and guide you to explore the world.</p>
+            </section>
 
-    <section id="destinations">
-        <h2>Top Destinations</h2>
-        <p>Explore various recommended destinations, including Michelin-starred restaurants and chef's picks.</p>
-    </section>
+            <section id="destinations">
+                <h2>Top Destinations</h2>
+                <p>Explore various recommended destinations, including Michelin-starred restaurants and chef's picks.</p>
+            </section>
 
-    <section id="booking">
-        <h2>Booking</h2>
-        <p>Plan your trips with ease using our booking tools and recommendations.</p>
-    </section>
+            <section id="booking">
+                <h2>Booking</h2>
+                <p>Plan your trips with ease using our booking tools and recommendations.</p>
+            </section>
 
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <p>Hover over images to view highlights of our travels.</p>
-        </section>
+                <section id="gallery">
+                    <h2>Gallery</h2>
+                    <p>Hover over images to view highlights of our travels.</p>
+                </section>
 
-    <section id="trips">
-        <h2>Seasonal Trips</h2>
-        <p>Discover trips tailored for summer, autumn, winter, and spring.</p>
-    </section>
+            <section id="trips">
+                <h2>Seasonal Trips</h2>
+                <p>Discover trips tailored for summer, autumn, winter, and spring.</p>
+            </section>
 
-    <section id="equipment">
-        <h2>Essentials & Equipment</h2>
-        <p>Get the best recommendations for travel gear and equipment to make your journey smooth.</p>
-    </section>
+            <section id="equipment">
+                <h2>Essentials & Equipment</h2>
+                <p>Get the best recommendations for travel gear and equipment to make your journey smooth.</p>
+            </section>
 
-    <section id="guides">
-        <h2>Guides</h2>
-        <p>Learn from our seasoned travel guides and plan like a pro.</p>
-    </section>
-    </div>  
-
-</body>
-
-    <footer>
-        <p>&copy; 2025 Around the Globe. All rights reserved.</p>
-    </footer>
-
+            <section id="guides">
+                <h2>Guides</h2>
+                <p>Learn from our seasoned travel guides and plan like a pro.</p>
+            </section>
+        </div>  
+        <footer>
+            <p>&copy; 2025 Around the Globe. All rights reserved.</p>
+        </footer>
+    </body>
 </html>

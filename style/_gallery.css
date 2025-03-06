@@ -65,3 +65,11 @@ main.gallery .item:hover .info {
     padding: 20px; 
     font-size: 1.1em; 
 }
+
+#gallery {
+    font-size: 3em;
+    color: #E4DAB6;
+    font-family: "Poiret One", serif;
+    padding: 20px;
+    text-align: center;
+}
