@@ -69,7 +69,8 @@ main.gallery .item:hover .info {
 #gallery {
     font-size: 3em;
     color: #E4DAB6;
-    font-family: "Poiret One", serif;
+    font-family: "Sofia Sans Condensed", serif;
     padding: 20px;
     text-align: center;
 }
+

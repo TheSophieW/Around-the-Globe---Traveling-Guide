@@ -9,119 +9,137 @@
         <link rel="stylesheet" href="./style/styles.css">
     </head>
     <body>
-        
+            
         <header>
-            <div class="logo"><img src="./assets/ATG/icons/ATG-logo1.png" alt="Around the Globe">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/about.html">About</a></li>
-                    <li><a href="./pages/destinations.html">Destinations</a></li>
-                    <li><a href="./pages/booking.html">Booking</a></li>
-                    <li><a href="./pages/gallery.html">Gallery</a></li>
-                    <li><a href="./pages/seastrip.html">Seasonal Trips</a></li>
-                    <li><a href="./pages/faq.html">FAQ</a></li>
-                    <li><a href="./pages/guides.html">Guides</a></li>
-                    <li><a href="./pages/culitrip.html">Culinary Trips</a></li>
-                </ul>
-            </nav>
+                <div class="logo"><img src="./assets/ATG/icons/ATG-logo1.png" alt="Around the Globe">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/about.html">About</a></li>
+                        <li><a href="./pages/destinations.html">Destinations</a></li>
+                        <li><a href="./pages/booking.html">Booking</a></li>
+                        <li><a href="./pages/gallery.html">Gallery</a></li>
+                        <li><a href="./pages/seastrip.html">Seasonal Trips</a></li>
+                        <li><a href="./pages/faq.html">FAQ</a></li>
+                        <li><a href="./pages/guides.html">Guides</a></li>
+                        <li><a href="./pages/culitrip.html">Culinary Trips</a></li>
+                    </ul>
+                </nav>
         </header>
         
-        <div id="wrapper">
-            <div class="carousel">
-                <div class="carousel-images">
-                    <div class="slide active">
-                        <img src="./assets/ATG/edited/santorini_greece.png" alt="Luxury Destination 1">
-                        <div class="text-overlay">
-                            <h2>Maldives Paradise</h2>
-                            <p>Experience overwater luxury with endless ocean views.</p>
+                <div id="wrapper">
+                    <div class="carousel">
+                        <div class="carousel-images">
+                            <div class="slide active">
+                                <img src="./assets/ATG/edited/santorini_greece.png" alt="Luxury Destination 1">
+                                <div class="text-overlay">
+                                    <h2>Maldives Paradise</h2>
+                                    <p>Experience overwater luxury with endless ocean views.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/ATG/edited/ubud_bali_indo.png" alt="Luxury Destination 2">
+                                <div class="text-overlay">
+                                    <h2>Parisian Elegance</h2>
+                                    <p>Dine under the Eiffel Tower with world-class cuisine.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/ATG/edited/moraine_lake_canada.png" alt="Luxury Destination 3">
+                                <div class="text-overlay">
+                                <h2>Santorini Sunsets</h2>
+                                    <p>Unwind with breathtaking views of the Aegean Sea.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/ATG/edited/bali_indo_couple.png" alt="Luxury Destination 2">
+                                <div class="text-overlay">
+                                    <h2>Parisian Elegance</h2>
+                                    <p>Dine under the Eiffel Tower with world-class cuisine.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/ATG/edited/sea.png" alt="Luxury Destination 3">
+                                <div class="text-overlay">
+                                <h2>Santorini Sunsets</h2>
+                                    <p>Unwind with breathtaking views of the Aegean Sea.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/ATG/edited/great_wall_china.png" alt="Luxury Destination 3">
+                                <div class="text-overlay">
+                                <h2>Santorini Sunsets</h2>
+                                    <p>Unwind with breathtaking views of the Aegean Sea.</p>
+                                </div>
+                            </div>
                         </div>
+                        <!-- Navigation buttons -->
+                        <button class="prev" onclick="prevSlide()">&#10094;</button>
+                        <button class="next" onclick="nextSlide()">&#10095;</button>
                     </div>
-                    <div class="slide">
-                        <img src="./assets/ATG/edited/ubud_bali_indo.png" alt="Luxury Destination 2">
-                        <div class="text-overlay">
-                            <h2>Parisian Elegance</h2>
-                            <p>Dine under the Eiffel Tower with world-class cuisine.</p>
+
+
+                    <section id="home" class="hero">
+                        <h1>Unveiling the World’s Most Exclusive Destinations</h1>
+                        <p>At <strong>Around the Globe</strong>, we craft bespoke travel experiences for those who seek <em>the extraordinary</em>.  
+                        Where will your next journey take you?</p>
+                        <br>
+                        <a href="./pages/booking.html" class="cta-button">Start Your Journey</a>
+                    </section>
+            
+                    <section id="membership">
+                        <h2>Join the Exclusive Travel Club</h2>
+                        <p>Unlock **members-only experiences**, VIP travel perks, and insider access to the world's most exclusive destinations.</p>
+                        
+                        <div class="membership-options">
+                            <a href="./pages/login.html" class="cta-button">Sign In</a>
+                            <a href="./pages/register.html" class="cta-button primary">Become a Member</a>
                         </div>
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/ATG/edited/moraine_lake_canada.png" alt="Luxury Destination 3">
-                        <div class="text-overlay">
-                        <h2>Santorini Sunsets</h2>
-                            <p>Unwind with breathtaking views of the Aegean Sea.</p>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/ATG/edited/bali_indo_couple.png" alt="Luxury Destination 2">
-                        <div class="text-overlay">
-                            <h2>Parisian Elegance</h2>
-                            <p>Dine under the Eiffel Tower with world-class cuisine.</p>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/ATG/edited/sea.png" alt="Luxury Destination 3">
-                        <div class="text-overlay">
-                        <h2>Santorini Sunsets</h2>
-                            <p>Unwind with breathtaking views of the Aegean Sea.</p>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/ATG/edited/great_wall_china.png" alt="Luxury Destination 3">
-                        <div class="text-overlay">
-                        <h2>Santorini Sunsets</h2>
-                            <p>Unwind with breathtaking views of the Aegean Sea.</p>
-                        </div>
-                    </div>
+                    </section>
+                    
+
+                    <section id="experiences">
+                        <h2>Signature Experiences</h2>
+                        <p>Indulge in the world's most exclusive experiences—<em>private island retreats,  
+                        Michelin-starred dining, and VIP access to hidden gems</em>.</p>
+                        <ul>
+                            <li>🏝️ <strong>Private Island Escapes</strong> – Personalized luxury in breathtaking settings</li>
+                            <li>🍷 <strong>Elite Wine & Culinary Tours</strong> – Exclusive tastings at the world’s finest vineyards</li>
+                            <li>🛥️ <strong>Yacht & Private Jet Journeys</strong> – Travel in absolute comfort and style</li>
+                        </ul>
+                    </section>
+
+                    <section id="concierge">
+                        <h2>Your Personal Travel Concierge</h2>
+                        <p>Seamlessly plan your next getaway with our **white-glove concierge service**.  
+                        From private villas to first-class flights, we tailor every detail to perfection.</p>
+                        <a href="./pages/booking.html" class="cta-button">Request Your Exclusive Itinerary</a>
+                    </section>
+            
+              
+                    <section id="insider">
+                        <h2>Insider Access & Luxury Travel Secrets</h2>
+                        <p>Gain **exclusive access** to the world’s **hidden gems**, private member clubs, and elite travel tips from seasoned experts.</p>
+                        <ul>
+                            <li>🌟 <strong>VIP Entry</strong> – Gain access to members-only lounges & private events</li>
+                            <li>👜 <strong>Luxury Essentials</strong> – The finest travel gear & designer luggage</li>
+                            <li>📖 <strong>Curated Itineraries</strong> – Expert travel guides tailored for the elite explorer</li>
+                        </ul>
+                    </section>
+
+                    <section id="cta">
+                        <h2>Begin Your Luxury Escape</h2>
+                        <p>Where will your next journey take you? Let our expert team craft a personalized itinerary that redefines luxury.</p>
+                        <a href="./pages/booking.html" class="cta-button">Start Your Journey</a>
+                    </section>
+                    
+
+                    </div>  
+                    <footer>
+                        <p>&copy; 2025 Around the Globe. All rights reserved.</p>
+                    </footer>
+                    
                 </div>
-                <!-- Navigation buttons -->
-                <button class="prev" onclick="prevSlide()">&#10094;</button>
-                <button class="next" onclick="nextSlide()">&#10095;</button>
-            </div>
-
-
-            <section id="home" class="hero">
-                <h1>Welcome to Around the World</h1>
-                <p>Your ultimate travelling guide to explore breathtaking destinations and create unforgettable memories.</p>
-            </section>
-
-            <section id="about">
-                <h2>About Us</h2>
-                <p>Founded by passionate travelers, we aim to inspire and guide you to explore the world.</p>
-            </section>
-
-            <section id="destinations">
-                <h2>Top Destinations</h2>
-                <p>Explore various recommended destinations, including Michelin-starred restaurants and chef's picks.</p>
-            </section>
-
-            <section id="booking">
-                <h2>Booking</h2>
-                <p>Plan your trips with ease using our booking tools and recommendations.</p>
-            </section>
-
-                <section id="gallery">
-                    <h2>Gallery</h2>
-                    <p>Hover over images to view highlights of our travels.</p>
-                </section>
-
-            <section id="trips">
-                <h2>Seasonal Trips</h2>
-                <p>Discover trips tailored for summer, autumn, winter, and spring.</p>
-            </section>
-
-            <section id="equipment">
-                <h2>Essentials & Equipment</h2>
-                <p>Get the best recommendations for travel gear and equipment to make your journey smooth.</p>
-            </section>
-
-            <section id="guides">
-                <h2>Guides</h2>
-                <p>Learn from our seasoned travel guides and plan like a pro.</p>
-            </section>
-        </div>  
-        <footer>
-            <p>&copy; 2025 Around the Globe. All rights reserved.</p>
-        </footer>
     </body>
 </html>

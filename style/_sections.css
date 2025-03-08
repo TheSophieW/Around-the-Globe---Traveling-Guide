@@ -1,22 +1,87 @@
-#wrapper{
+#wrapper {
     display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: auto auto;
     grid-template-areas: 
- 
-    
+        "header header"
+        "carousel carousel"
+        "content content";
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    gap: 30px;
+}
+.sections-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Responsive grid */
+    gap: 30px;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.carousel {
+    grid-area: carousel;
+    width: 100%;
+}
+
+.main-content {
+    grid-area: content;
+    padding: 20px;
 }
 
 section h2 {
-    font-size: 2em;
+    font-size: 2.7em;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    font-variant: full-width;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #BA9350;
+}
+
+section h1 {
+    font-size: 3em;
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
     color: #182923;
 }
 
-section h1 {
-    font-size: 2.7em;
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-align: center;
+section ul{
+    font-size: 1em;
+    line-height: 1.5;
     color: #182923;
+}
+section ul li {
+    padding-left: 0;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+section p {
+    font-size: 2em;
+    line-height: 1.5;
+    color: #182923;
+}
+section a {
+    color: #182923;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.3em;
+}
+section a:hover {
+    color: #BA9350;
+    text-decoration: underline;
+}
+
+ #wrapper .membership .experiences .concierge .insider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.clickable-container {
+    display: block; /* Makes the entire container clickable */
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps text color unchanged */
 }

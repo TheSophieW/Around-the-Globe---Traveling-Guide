@@ -17,15 +17,7 @@ input ::placeholder {
   color: gold;
 }
 
-button {
-  background: green;
-  color: black;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-top: 15px;
-}
+
 
 p {
   font-size: 12px;
@@ -33,8 +25,3 @@ p {
   margin-top: 15px;
 }
 
-#register {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}

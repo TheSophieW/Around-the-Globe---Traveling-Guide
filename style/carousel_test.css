@@ -76,7 +76,7 @@
 
 
 /* Navigation buttons */
-button {
+.carousel button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -86,7 +86,7 @@ button {
     padding: 10px 15px;
     cursor: pointer;
     font-size: 24px;
-    border-radius: 5px;
+    border-radius: 30%;
 }
 
 .prev {

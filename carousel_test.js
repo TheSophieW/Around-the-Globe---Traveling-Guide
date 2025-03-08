@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Show the first slide when the page loads
   showSlide(currentIndex);
 
-  setInterval(nextSlide, 5000); // Automatically go to the next slide every 3 seconds
+  setInterval(nextSlide, 6500); // Automatically go to the next slide every 6.5 seconds
 });
 
 // Function to show a specific slide

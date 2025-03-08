@@ -12,7 +12,17 @@ a {
     text-decoration: none;
 }
 
-/* 🌅 HERO SECTION */
+a:hover {
+    color: #BA9350; /* Rich gold hover effect */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+button:hover {
+    box-shadow: 0px 4px 12px rgba(186, 147, 80, 0.5);
+}
+
+
 .hero {
     text-align: center;
     padding: 80px 20px;
@@ -21,17 +31,34 @@ a {
 }
 
 .hero h1 {
-    font-size: 3em;
+    font-size: 3.2em;
     font-weight: bold;
     margin-bottom: 10px;
     background: linear-gradient(to right, #E4DAB6, #BA9350)
 }
 
 .hero p {
-    font-size: 1.2em;
+    font-size: 2.2em;
     max-width: 600px;
     margin: auto;
     background: linear-gradient(to right, #E4DAB6, #BA9350)
+}
+.hero .cta-button {
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.9em;
+}
+
+
+
+/* 📌 SECTIONS */
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: linear-gradient(to bottom, #FAF3E0, #E4DAB6);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* 🏆 BUTTONS */
@@ -51,29 +78,23 @@ a {
     background-color: #BA9350; /* Gold hover */
     color: #182923; /* Dark text */
 }
-
-/* 📌 SECTIONS */
-section {
-    padding: 30px;
-    margin: 20px auto;
-    max-width: 900px;
-    background: #EFEBBB;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 /* 🔘 NAVIGATION BUTTONS */
-button {
-    position: absolute;
-    top: 50%;
+.btn button {
+    position: fixed;
+    right: 50%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: #EFEBBB;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
     font-size: 24px;
     border-radius: 5px;
+}
+
+button:hover {
+    background-color: #BA9350; /* Gold hover */
+    color: #BA9350; /* Dark text */
 }
 
 .prev {
@@ -84,9 +105,7 @@ button {
     right: 10px;
 }
 
-button:hover {
-    background: rgba(0, 0, 0, 0.8);
-}
+
 
 /* 🌍 FOOTER */
 footer {
@@ -98,24 +117,4 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-/* 📱 RESPONSIVE DESIGN */
-@media (max-width: 768px) {
-    .hero {
-        padding: 50px 10px;
-    }
-    .hero h1 {
-        font-size: 2.5em;
-    }
-    .hero p {
-        font-size: 1em;
-    }
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin: 10px 0;
-    }
 }
