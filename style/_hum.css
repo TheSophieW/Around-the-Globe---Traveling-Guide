@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: 203e36;
+  box-shadow: 0 4px 8px #203E36(0, 0, 0, 0.2);
 }
 
 .hamburger {
@@ -21,6 +21,7 @@
   height: 5px;
   background: #333;
   border-radius: 5px;
+  color: #e4dab6;
 }
 
 .menu {
@@ -28,7 +29,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background: white;
+  background: #203e36;
   position: absolute;
   top: 60px;
   left: 0;
@@ -39,7 +40,7 @@
 
 .menu a {
   text-decoration: none;
-  color: #333;
+  color: #e4dab6;
   font-size: 18px;
   padding: 15px;
   display: block;

@@ -10,21 +10,33 @@
 
 <body>
     <header>
-        <div class="logo"><img src="../assets/ATG/icons/ATG-logo1.png" alt="Around the Globe">
+        <div class="logo">
+            <img src="../assets/ATG/icons/ATG-logo1.png" alt="Around the Globe">
         </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/about.html">About</a></li>
-                <li><a href="../pages/destinations.html">Destinations</a></li>
-                <li><a href="../pages/booking.html">Booking</a></li>
-                <li><a href="../pages/gallery.html">Gallery</a></li>
-                <li><a href="../pages/seastrip.html">Seasonal Trips</a></li>
-                <li><a href="../pages/faq.html">FAQ</a></li>
-                <li><a href="../pages/guides.html">Guides</a></li>
-                <li><a href="../pages/culitrip.html">Culinary Trips</a></li>
-            </ul>
-        </nav>
+        <div class="menu-container">
+
+            <input type="checkbox" id="menu-toggle">
+            <label class="hamburger" for="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li><a href="../pages/destinations.html">Destinations</a></li>
+                    <li><a href="../pages/booking.html">Booking</a></li>
+                    <li><a href="../pages/gallery.html">Gallery</a></li>
+                    <li><a href="../pages/seastrip.html">Seasonal Trips</a></li>
+                    <li><a href="../pages/faq.html">FAQ</a></li>
+                    <li><a href="../pages/guides.html">Guides</a></li>
+                    <li><a href="../pages/culitrip.html">Culinary Trips</a></li>
+                    <li><a href="../pages/account.html">Account</a></li>
+
+                </ul>
+            </nav>
+        </div>
     </header>
     <section>
         <div class="login-container">
@@ -40,9 +52,9 @@
                         <a href="#">Forgot Password?</a>
                     </div>
 
-                    <button type="submit"><a href="/pages/personal.html"></a> Login</button>
+                    <button type="submit"><a href="./account.html"></a> Login</button>
 
-                    <p>Don't have an account? <a href="/pages/register.html" id="register">Register</a></p>
+                    <p>Don't have an account? <a href="./pages/register.html" id="register">Register</a></p>
                 </form>
 
             </div>
