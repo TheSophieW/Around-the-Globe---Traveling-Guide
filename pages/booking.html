@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Around the World - Travelling Guide</title>
     <link rel="stylesheet" href="../style/styles.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
             <img src="../assets/ATG/icons/ATG-logo1.png" alt="Around the Globe">
         </div>
         <div class="menu-container">
-
             <input type="checkbox" id="menu-toggle">
             <label class="hamburger" for="menu-toggle">
                 <div></div>
@@ -31,7 +32,6 @@
                     <li><a href="../pages/guides.html">Guides</a></li>
                     <li><a href="../pages/culitrip.html">Culinary Trips</a></li>
                     <li><a href="../pages/account.html">Account</a></li>
-
                 </ul>
             </nav>
         </div>
@@ -42,41 +42,53 @@
         <p>Plan your perfect getaway by filling out the form below. We’ll take care of the rest!</p>
 
         <form action="#" method="post" class="booking-form">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your full name" required>
+            <div class="form-group">
+                <label for="name" style="grid-area: label1;">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required
+                    style="grid-area: input1;">
+            </div>
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" placeholder="Your email address" required>
+            <div class="form-group">
+                <label for="email" style="grid-area: label2;">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required
+                    style="grid-area: input2;">
+            </div>
 
-            <label for="destination">Select Destination:</label>
-            <select id="destination" name="destination" required>
-                <option value="">--Choose a destination--</option>
-                <option value="paris">Paris, France</option>
-                <option value="kyoto">Kyoto, Japan</option>
-                <option value="maui">Maui, Hawaii</option>
-                <option value="cape-town">Cape Town, South Africa</option>
-                <option value="rome">Rome, Italy</option>
-            </select>
+            <div class="form-group">
+                <label for="destination" style="grid-area: label3;">Select Destination:</label>
+                <select id="destination" name="destination" required style="grid-area: input3;">
+                    <option value="">--Choose a destination--</option>
+                    <option value="paris">Paris, France</option>
+                    <option value="kyoto">Kyoto, Japan</option>
+                    <option value="maui">Maui, Hawaii</option>
+                    <option value="cape-town">Cape Town, South Africa</option>
+                    <option value="rome">Rome, Italy</option>
+                </select>
+            </div>
 
-            <label for="dates">Travel Dates:</label>
-            <input type="date" id="dates" name="dates" required>
+            <div class="form-group">
+                <label for="dates" style="grid-area: label4;">Travel Dates:</label>
+                <input type="date" id="dates" name="dates" required style="grid-area: input4;">
+            </div>
 
-            <label for="guests">Number of Guests:</label>
-            <input type="number" id="guests" name="guests" min="1" max="20" required>
+            <div class="form-group">
+                <label for="guests" style="grid-area: label5;">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required style="grid-area: input5;">
+            </div>
 
-            <label for="notes">Additional Notes:</label>
-            <textarea id="notes" name="notes" rows="5" placeholder="Any special requests or information?"></textarea>
+            <div class="form-group">
+                <label for="notes" style="grid-area: label6;">Additional Notes:</label>
+                <textarea id="notes" name="notes" rows="5" placeholder="Any special requests or information?"
+                    style="grid-area: input6;"></textarea>
+            </div>
 
             <button type="submit">Submit Booking</button>
         </form>
     </section>
-  
-    
-    <footer>
-    
-        <p>&copy; 2025 Around the Globe. All rights reserved.</p> 
 
-        
+    <footer>
+        <p>&copy; 2025 Around the Globe. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
