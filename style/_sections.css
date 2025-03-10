@@ -3,9 +3,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-areas:
+        "carousel carousel carousel"
         "hero     hero     hero"
         "card1    card1    card1"
-        "carousel carousel carousel"
         "full     full     full";
     gap: 2rem;
     max-width: 1400px;
