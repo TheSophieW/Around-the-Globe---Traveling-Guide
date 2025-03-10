@@ -16,7 +16,7 @@
 
 .sections-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive grid */
     gap: 30px;
     justify-content: center;
     align-items: start;
@@ -101,3 +101,40 @@ section a:hover {
     text-decoration: none; /* Removes underline */
     color: inherit; /* Keeps text color unchanged */
 }
+
+@media (max-width: 1024px) {
+    #wrapper {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "carousel"
+        "hero"
+        "card1"
+        "full";
+      padding: 20px 15px;
+      gap: 1.5rem;
+    }
+  
+    .sections-wrapper {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .hero h1,
+    .hero p,
+    h1, h2, h3, p {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .sections-wrapper {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+    #wrapper {
+      padding: 15px 10px;
+      gap: 1rem;
+    }
+  }
+  
