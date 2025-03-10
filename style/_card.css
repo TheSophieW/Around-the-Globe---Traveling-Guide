@@ -31,5 +31,5 @@ a:hover {
   width: 60%;
   height: 70%;
   margin-left: 20%;
-  round: 50%;
+ border-radius: 360%;
 }

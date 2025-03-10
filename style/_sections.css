@@ -30,6 +30,10 @@
     padding: 20px;
 }
 
+#thanks {
+    text-align: center;
+}
+
 section h2 {
     font-size: 2.7em;
     font-weight: 500;
@@ -66,11 +70,11 @@ section p {
     color: #182923;
 }
 section a {
-    color: #182923;
+    color: #BA9350;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease-in-out;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 section li a {
     color: #182923;
