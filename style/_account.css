@@ -8,12 +8,16 @@
 }
 
 .button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  padding: var(--button-padding);
   border: none;
-  border-radius: 5px;
+  border-radius: var(--button-border-radius);
   cursor: pointer;
+}
+
+section.account-settings .button{
+  margin-left: 45%;
 }
 
 .section-title {

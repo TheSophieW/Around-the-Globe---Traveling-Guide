@@ -46,4 +46,11 @@
     --text: #E4DAB6;
     --accent: #BA9350;
     --card-bg: #203E36;
+  }  
+  :root {
+    --button-bg-color: #182923;
+    --button-text-color: #ba9350;
+    --button-padding: 10px 20px;
+    --button-border-radius: 5px;
   }
+ 
