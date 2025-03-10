@@ -1,20 +1,18 @@
-/* 🌿 GENERAL STYLING */
 body {
     font-family: "Sofia Sans Condensed", serif;
     margin: 0;
     padding: 0;
-    background-color: #051D1D; 
-    color: #203E36; /* Deep green for text */
+    background-color: var(--midnight); 
+    color: var(--pine);
 }
 
 a {
-    color: #182923; /* Dark green-black */
+    color: var(--forest);
     text-decoration: none;
 }
 
 a:hover {
-    color: #BA9350; /* Rich gold hover effect */
-    text-decoration: none;
+    color: var(--gold);
     transition: color 0.3s ease-in-out;
 }
 
@@ -22,69 +20,72 @@ button:hover {
     box-shadow: 0px 4px 12px rgba(186, 147, 80, 0.5);
 }
 
-
+/* HERO SECTION */
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(to right, #E4DAB6, #BA9350); /* Soft cream to gold gradient */
-    color: #182923; /* Dark green-black text */
+    background: linear-gradient(to right, var(--cream), var(--gold));
+    color: var(--forest);
+}
+
+.hero h1,
+.hero p {
+    background: linear-gradient(to right, var(--cream), var(--gold));
 }
 
 .hero h1 {
     font-size: 3.2em;
     font-weight: bold;
     margin-bottom: 10px;
-    background: linear-gradient(to right, #E4DAB6, #BA9350)
 }
 
 .hero p {
     font-size: 2.2em;
     max-width: 600px;
     margin: auto;
-    background: linear-gradient(to right, #E4DAB6, #BA9350)
 }
+
 .hero .cta-button {
     padding: 15px 30px;
     margin-top: 20px;
     font-size: 1.9em;
 }
 
-
-
-/* 📌 SECTIONS */
+/* SECTIONS */
 section {
     padding: 30px;
     margin: 20px auto;
     max-width: 900px;
-    background: linear-gradient(to bottom, #FAF3E0, #E4DAB6);
+    background: linear-gradient(to bottom, #FAF3E0, var(--cream)); /* Optional: make #FAF3E0 a variable */
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* 🏆 BUTTONS */
+/* BUTTONS */
 .btn {
     display: inline-block;
     padding: 12px 25px;
     font-size: 1em;
     font-weight: bold;
-    color: #E4DAB6; /* Cream text */
-    background-color: #203E36; /* Deep green */
+    color: var(--cream);
+    background-color: var(--pine);
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s ease-in-out;
 }
 
 .btn:hover {
-    background-color: #BA9350; /* Gold hover */
-    color: #182923; /* Dark text */
+    background-color: var(--gold);
+    color: var(--forest);
 }
-/* 🔘 NAVIGATION BUTTONS */
+
+/* NAVIGATION BUTTONS */
 .btn button {
     position: fixed;
     right: 50%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
-    color: #EFEBBB;
+    color: #EFEBBB; /* Could also become a var */
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -93,8 +94,8 @@ section {
 }
 
 button:hover {
-    background-color: #BA9350; /* Gold hover */
-    color: #BA9350; /* Dark text */
+    background-color: var(--gold);
+    color: var(--gold);
 }
 
 .prev {
@@ -103,18 +104,4 @@ button:hover {
 
 .next {
     right: 10px;
-}
-
-
-
-/* 🌍 FOOTER */
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #182923; /* Deep green-black */
-    color: #E4DAB6; /* Cream text */
-    font-size: 0.9em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }

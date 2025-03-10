@@ -1,18 +1,49 @@
-:root [data-theme="main"] {
-    --background-color: #051D1D
-    --text-color: #182923
-    --button-color:
-    --button-hover-color: #BA9350
-    --button-text-color: #182923
-    --button-hover-text-color: #BA9350
-    --link-color: #182923
-    --link-hover-color:BA9350
-    --link-hover-text-color: #BA9350
-    --nav-color: #203E36
-    --nav-hover-color:
-    --nav-hover-text-color: #BA9350
-    --footer-color: #182923
-    --footer-text-color:#E5CD8A
-    --h1-color: #182923
-    --h2-color: #B6914F
-}
+:root {
+    /* Font Families */
+    --font-decorative: "Poiret One", serif;             /* Elegant cursive */
+    --font-heading: "Sofia Sans Condensed", sans-serif; /* Bold & classy headers */
+    --font-body: "Cormorant Infant", serif;             /* For polished body text, optional */
+  
+    /* Font Weights */
+    --weight-bold: 700;
+    --weight-medium: 500;
+    --weight-light: 300;
+  
+    /* Primary Color Palette */
+    --gold: #BA9350;        /* Signature Old Money gold */
+    --cream: #E4DAB6;       /* Soft luxury background */
+    --pine: #203E36;        /* Elegant pine green */
+    --forest: #182923;      /* Deep evergreen */
+    --midnight: #051D1D;    /* Rich darkest green */
+  
+    /* Neutrals */
+    --white: #ffffff;
+    --black: #000000;
+    --text-dark: var(--forest);
+    --text-light: var(--cream);
+    --highlight: var(--gold);
+  
+    /* Layout */
+    --max-width: 1200px;
+    --section-padding: 4rem 2rem;
+    --border-radius: 10px;
+  
+    /* Effects */
+    --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    --soft-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --transition-fast: 0.2s ease-in-out;
+    --transition-slow: 0.4s ease;
+  }
+  :root {
+    /* Light theme (default) */
+    --bg: #E4DAB6;
+    --text: #182923;
+    --accent: #BA9350;
+    --card-bg: #fffdf6;
+  }
+  [data-theme="dark"] {
+    --bg: #182923;
+    --text: #E4DAB6;
+    --accent: #BA9350;
+    --card-bg: #203E36;
+  }
