@@ -22,12 +22,13 @@ form.booking-form {
   grid-template-columns: 1fr 2fr;
   gap: 20px;
   grid-template-areas:
-    "label1 input1"
-    "label2 input2"
-    "label3 input3"
-    "label4 input4"
-    "label5 input5"
-    "label6 input6";
+  "label1 input1"
+  "label2 input2"
+  "label3 input3"
+  "label4 input4"
+  "label5 input5"
+  "label6 input6"
+  ". button";
 }
 
 label {
@@ -63,6 +64,7 @@ button[type="submit"] {
   border: none;
   border-radius: var(--button-border-radius);
   cursor: pointer;
+  justify-self: center;
 }
 
 .form-group {
@@ -76,9 +78,11 @@ body {
   color: #203e36;
   /* Deep green for text */
 }
+.form-submit {
+  grid-column: span 2; /* spans both columns */
+  justify-self: center; /* center horizontally in the grid */
+}
 
-
-/* Adjusting for smaller screens */
 @media (max-width: 600px) {
   form.booking-form {
     grid-template-columns: 1fr;
@@ -94,10 +98,17 @@ body {
       "label5"
       "input5"
       "label6"
-      "input6";
+      "input6"
+      "button";
   }
 
   button[type="submit"] {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  
+  .form-submit {
     grid-column: span 1;
+    justify-self: center;
   }
 }

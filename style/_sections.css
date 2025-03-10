@@ -1,16 +1,19 @@
+
 #wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-        "header header"
-        "carousel carousel"
-        "content content";
-    max-width: 1200px;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas:
+        "hero     hero     hero"
+        "card1    card1    card1"
+        "carousel carousel carousel"
+        "full     full     full";
+    gap: 2rem;
+    max-width: 1400px;
+    padding: 40px 20px;
     margin: auto;
-    padding: 20px;
-    gap: 30px;
 }
+
+
 .sections-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Responsive grid */
@@ -74,7 +77,7 @@ section a {
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease-in-out;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 section li a {
     color: #182923;
