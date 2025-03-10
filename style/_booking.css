@@ -32,6 +32,7 @@ form.booking-form {
 
 label {
   font-weight: bold;
+  font-size: 2em;
   color: #203e36;
   align-self: center;
 }

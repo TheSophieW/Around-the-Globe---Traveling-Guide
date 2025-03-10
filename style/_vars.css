@@ -1,0 +1,18 @@
+:root [data-theme="main"] {
+    --background-color: #051D1D
+    --text-color: #182923
+    --button-color:
+    --button-hover-color: #BA9350
+    --button-text-color: #182923
+    --button-hover-text-color: #BA9350
+    --link-color: #182923
+    --link-hover-color:BA9350
+    --link-hover-text-color: #BA9350
+    --nav-color: #203E36
+    --nav-hover-color:
+    --nav-hover-text-color: #BA9350
+    --footer-color: #182923
+    --footer-text-color:#E5CD8A
+    --h1-color: #182923
+    --h2-color: #B6914F
+}

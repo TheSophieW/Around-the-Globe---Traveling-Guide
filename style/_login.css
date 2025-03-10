@@ -12,12 +12,39 @@
   margin: 0 auto;
   text-align: center;
 }
+.login-box h2 {
+  
+  color: #ba9350;
+  margin-bottom: 25px;
+}
 
 input ::placeholder {
   color: gold;
 }
-
-
+.login-box button:hover {
+  background-color: #ba9350;
+  color: #182923;
+}
+.login-box button {
+  background-color: #182923;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.login-box p a {
+  color: #ba9350;
+  font-size: 2em;
+  text-decoration: none;
+}
+.login-box label {
+  font-size: 2em;
+  color: #ba9350;
+  margin-bottom: 10px;
+}
 
 p {
   font-size: 12px;

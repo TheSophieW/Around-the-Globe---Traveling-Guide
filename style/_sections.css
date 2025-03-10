@@ -52,11 +52,13 @@ section ul{
     font-size: 1em;
     line-height: 1.5;
     color: #182923;
+    font-size: 1.2em;
 }
 section ul li {
     padding-left: 0;
     font-size: 1.3em;
     line-height: 1.5;
+    font-size: 1.2em;
 }
 section p {
     font-size: 2em;
@@ -68,7 +70,14 @@ section a {
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease-in-out;
-    font-size: 1.3em;
+    font-size: 2em;
+}
+section li a {
+    color: #182923;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.2em;
 }
 section a:hover {
     color: #BA9350;
