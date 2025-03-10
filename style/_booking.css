@@ -55,20 +55,14 @@ textarea:focus {
   outline: none;
 }
 
-button[type="submit"] {
-  grid-column: span 2;
-  background-color: #051d1d;
-  color: #fff;
-  border: none;
-  padding: 15px;
-  font-size: 1.1em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
 
-button[type="submit"]:hover {
-  background-color: #203e36;
+button[type="submit"] {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  padding: var(--button-padding);
+  border: none;
+  border-radius: var(--button-border-radius);
+  cursor: pointer;
 }
 
 .form-group {
