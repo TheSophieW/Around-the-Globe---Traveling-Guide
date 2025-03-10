@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sofia+Sans+Condensed:wght@686&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
-.poiret-one {
-    font-family: "Poiret One", serif;
+.cormorant-garamond {
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
-    font-style: oblique;
+    font-style: normal;
+    font-optical-sizing: auto;
 }
 
 .sofia-sans {
@@ -11,12 +12,13 @@
     font-optical-sizing: auto;
     font-weight: 686;
     font-style: normal;
+    font-optical-sizing: auto;
 }
 
 p {
-    font-family: "Poiret One", serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
-    font-style: oblique;
+    font-style: normal;
 }
 
 h1, h2, h3 {
@@ -29,14 +31,14 @@ h1, h2, h3 {
 nav ul li a {
     font-family: "Sofia Sans Condensed", serif;
     font-weight: 900;
-    font-style: oblique;
+    font-style: normal;
     line-height: 1.6;
 }
 
 li {
-    font-family: "Poiret One", serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
-    font-style: oblique;
+    font-style: normal;
     line-height: 1.6;
 }
 
@@ -68,7 +70,7 @@ li {
       line-height: 1.6;
     }
   
-    .poiret-one {
+    .cormorant-garamond {
       font-size: 1.1em;
       font-weight: 400;
       font-style: oblique;

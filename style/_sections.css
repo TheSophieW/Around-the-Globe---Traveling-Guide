@@ -97,9 +97,9 @@ section a:hover {
     gap: 20px;
 }
 .clickable-container {
-    display: block; /* Makes the entire container clickable */
-    text-decoration: none; /* Removes underline */
-    color: inherit; /* Keeps text color unchanged */
+    display: block; 
+    text-decoration: none;
+    color: inherit; 
 }
 
 @media (max-width: 1024px) {
