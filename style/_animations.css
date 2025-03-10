@@ -1,0 +1,45 @@
+#membership {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #FAF3E0, #E4DAB6); /* Soft cream gradient */
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#membership h2 {
+    font-size: 2em;
+    color: #A67C52; /* Gold */
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+
+#membership p {
+    font-size: 1.1em;
+    color: #3A2E2E; /* Soft black for readability */
+    margin-bottom: 20px;
+}
+
+.membership-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cta-button {
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #C8A15A;
+    color: #FFF;
+}
+
+.cta-button.primary {
+    background: #C8A15A;
+    color: white;
+    font-weight: bold;
+}
