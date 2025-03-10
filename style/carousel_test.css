@@ -63,14 +63,14 @@
 
 /* Title Styling */
 .carousel .text-overlay h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: bold;
     margin: 0;
 }
 
 /* Description Styling */
 .carousel .text-overlay p {
-    font-size: 1em;
+    font-size: 1.3em;
     margin: 5px 0 0;
 }
 
