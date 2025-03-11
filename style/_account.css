@@ -28,15 +28,18 @@ section.account-settings .button{
 
 .booking-history {
   margin-top: 20px;
+  
 }
 
 .booking-history table {
-  width: 100%;
   border-collapse: collapse;
+  min-width: 200px;
 }
 
 .booking-history th,
 .booking-history td {
+  justify-content: center;
+  vertical-align: auto;
   padding: 10px;
   text-align: left;
   border-bottom: 1px solid #ddd;
@@ -44,6 +47,8 @@ section.account-settings .button{
 
 .booking-history th {
   background-color: #BA9350;
+  justify-content: center;
+  vertical-align: auto;
 }
 
 .account-settings {

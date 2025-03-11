@@ -41,7 +41,7 @@ nav ul li a:hover {
     text-decoration-style: groove;
 }
 
-@media (min-width: 769px) and (max-width: 1199px) {
+@media (min-width: 669px) and (max-width: 1199px) {
     .hero {
         padding: 60px 30px;
     }
