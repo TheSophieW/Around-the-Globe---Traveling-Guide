@@ -125,6 +125,13 @@ section a:hover {
       text-align: center;
     }
   }
+  .section a {
+    color: #BA9350;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.3em;
+  }
   
   @media (max-width: 600px) {
     .sections-wrapper {
@@ -138,3 +145,25 @@ section a:hover {
     }
   }
   
+  @media (max-width: 768px) {
+    .sections-wrapper {  /* Replace with your actual container class */
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+  
+    p, span, a {
+      font-size: 1em;
+      line-height: 1.5em;
+      word-wrap: break-word;
+    }
+    h1 {
+      font-size: 2em;
+    }   
+    .email {
+      display: inline-block;
+      max-width: 100%;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+  }
