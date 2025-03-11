@@ -32,6 +32,7 @@ section.account-settings .button{
 }
 
 .booking-history table {
+  width: 100%;
   border-collapse: collapse;
   min-width: 200px;
 }
